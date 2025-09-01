@@ -1,16 +1,16 @@
 ---
-title: "DiziPal 1050, 1103...数字密码解析：热搜背后的编码规律"
-description: "深度解析DiziPal后面数字的真实含义，揭示1050、1103、1200等热门数字组合的规律和用户搜索行为背后的逻辑。"
+title: "DiziPal 1050, 1103... Number Code Analysis: The Encoding Rules Behind Hot Searches"
+description: "Deep analysis of the real meaning behind DiziPal numbers, revealing the patterns of popular number combinations like 1050, 1103, 1200 and the logic behind user search behavior."
 date: 2024-01-16T10:00:00+08:00
 draft: false
-categories: ["数据分析", "搜索趋势"]
-tags: ["DiziPal 1050", "DiziPal 1103", "数字解析", "搜索规律", "热点分析"]
+categories: ["Data Analysis", "Search Trends"]
+tags: ["DiziPal 1050", "DiziPal 1103", "Number Analysis", "Search Patterns", "Trend Analysis"]
 featured_image: "/images/dizipal-numbers.jpg"
 ---
 
-# DiziPal数字密码：1050、1103背后的秘密
+# DiziPal Number Codes: The Secret Behind 1050, 1103
 
-当你在Google搜索"DiziPal 1050"或"DiziPal 1103"时，是否好奇过这些数字到底代表什么？为什么特定的数字组合会成为热门搜索？让我们通过数据分析来揭开这个谜团。
+When you search for "DiziPal 1050" or "DiziPal 1103" on Google, have you ever wondered what these numbers actually represent? Why do specific number combinations become hot searches? Let's uncover this mystery through data analysis.
 
 ## 🔢 热门数字组合分析
 
