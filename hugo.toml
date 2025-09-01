@@ -1,6 +1,6 @@
 baseURL = "https://dizipal-insights.com"
-languageCode = "zh-cn"
-title = "DiziPal现象解析 - 网络热点与合法替代方案"
+languageCode = "en-us"
+title = "DiziPal Phenomenon Analysis - Network Trends & Legal Alternatives"
 theme = "ananke"
 
 # SEO设置
@@ -13,10 +13,10 @@ canonifyURLs = true
 
 [params]
   # 网站描述，重要的SEO元素
-  description = "专业解析DiziPal现象，提供详尽的网络热点分析与合法观影平台推荐。了解DiziPal 1050、1103等热门搜索背后的真相。"
+  description = "Professional analysis of the DiziPal phenomenon, providing comprehensive network trend analysis and legal streaming platform recommendations. Discover the truth behind popular searches like DiziPal 1050, 1103, and more."
   
   # 作者信息
-  author = "DiziPal研究团队"
+  author = "DiziPal Research Team"
   
   # 社交媒体
   twitter = "dizipal_insights"
@@ -36,27 +36,27 @@ canonifyURLs = true
 # 菜单配置
 [menu]
   [[menu.main]]
-    name = "首页"
+    name = "Home"
     url = "/"
     weight = 1
     
   [[menu.main]]
-    name = "DiziPal解析"
+    name = "DiziPal Analysis"
     url = "/dizipal-analysis/"
     weight = 2
     
   [[menu.main]]
-    name = "合法替代"
+    name = "Legal Alternatives"
     url = "/legal-alternatives/"
     weight = 3
     
   [[menu.main]]
-    name = "趋势分析"
+    name = "Trend Analysis"
     url = "/trends/"
     weight = 4
     
   [[menu.main]]
-    name = "关于我们"
+    name = "About"
     url = "/about/"
     weight = 5
 
@@ -87,8 +87,8 @@ canonifyURLs = true
     lineNos = true
 
 # 多语言支持（如需要）
-[languages]
-  [languages.zh-cn]
-    title = "DiziPal现象解析"
-    weight = 1
-    languageName = "中文"
+  [languages]
+    [languages.en-us]
+      title = "DiziPal Phenomenon Analysis"
+      weight = 1
+      languageName = "English"
