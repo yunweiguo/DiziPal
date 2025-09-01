@@ -34,7 +34,7 @@ canonifyURLs = true
   custom_css = ["css/custom.css"]
   
   # Google Search Console verification
-  google_site_verification = "your-verification-code-here"
+  google_site_verification = "google4b1fdf3d53df2686.html"
 
 # 菜单配置
 [menu]
