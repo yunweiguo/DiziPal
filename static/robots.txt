@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# 重要的SEO页面
+Sitemap: https://dizipal-insights.com/sitemap.xml
+
+# 允许所有搜索引擎爬取
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot  
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# 禁止爬取管理和私人目录
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# 爬取延迟 (礼貌爬取)
+Crawl-delay: 1

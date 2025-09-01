@@ -1,0 +1,94 @@
+baseURL = "https://dizipal-insights.com"
+languageCode = "zh-cn"
+title = "DiziPal现象解析 - 网络热点与合法替代方案"
+theme = "ananke"
+
+# SEO设置
+enableRobotsTXT = true
+canonifyURLs = true
+
+# 分页设置
+[pagination]
+  pagerSize = 10
+
+[params]
+  # 网站描述，重要的SEO元素
+  description = "专业解析DiziPal现象，提供详尽的网络热点分析与合法观影平台推荐。了解DiziPal 1050、1103等热门搜索背后的真相。"
+  
+  # 作者信息
+  author = "DiziPal研究团队"
+  
+  # 社交媒体
+  twitter = "dizipal_insights"
+  
+  # 启用评论（可选）
+  # comments = true
+  
+  # 网站图标
+  favicon = "favicon.ico"
+  
+  # 首页横幅文本
+  site_logo = ""
+  
+  # 自定义CSS
+  custom_css = ["css/custom.css"]
+
+# 菜单配置
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+    
+  [[menu.main]]
+    name = "DiziPal解析"
+    url = "/dizipal-analysis/"
+    weight = 2
+    
+  [[menu.main]]
+    name = "合法替代"
+    url = "/legal-alternatives/"
+    weight = 3
+    
+  [[menu.main]]
+    name = "趋势分析"
+    url = "/trends/"
+    weight = 4
+    
+  [[menu.main]]
+    name = "关于我们"
+    url = "/about/"
+    weight = 5
+
+# 分类法
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+# SEO和站点地图
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.8
+  filename = "sitemap.xml"
+
+# 标记配置
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+
+# 多语言支持（如需要）
+[languages]
+  [languages.zh-cn]
+    title = "DiziPal现象解析"
+    weight = 1
+    languageName = "中文"
