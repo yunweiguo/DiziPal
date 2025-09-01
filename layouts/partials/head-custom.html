@@ -1,6 +1,11 @@
 <!-- Google Search Console verification -->
 <meta name="google-site-verification" content="{{ .Site.Params.google_site_verification }}" />
 
+<!-- Fix for Netlify deployment -->
+{{ if .Site.Params.google_site_verification }}
+<meta name="google-site-verification" content="{{ .Site.Params.google_site_verification }}" />
+{{ end }}
+
 <!-- Additional SEO meta tags -->
 <meta name="robots" content="index, follow">
 <meta name="author" content="{{ .Site.Params.author }}">

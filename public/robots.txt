@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Allow: /
+Sitemap: https://beamish-cheesecake-783e6d.netlify.app/sitemap.xml
