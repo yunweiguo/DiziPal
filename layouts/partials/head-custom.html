@@ -1,0 +1,35 @@
+<!-- Google Search Console verification -->
+<meta name="google-site-verification" content="{{ .Site.Params.google_site_verification }}" />
+
+<!-- Additional SEO meta tags -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="{{ .Site.Params.author }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ .Site.Params.twitter }}">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Description }}">
+<meta name="twitter:image" content="{{ .Params.featured_image | default .Site.Params.featured_image }}">
+
+<!-- Open Graph meta tags -->
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ .Params.featured_image | default .Site.Params.featured_image }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+<!-- Structured Data for better SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "description": "{{ .Site.Params.description }}",
+  "url": "{{ .Site.BaseURL }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ .Site.BaseURL }}search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
